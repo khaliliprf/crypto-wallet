@@ -1,0 +1,49 @@
+{
+  "name": "crypto-wallet",
+  "version": "1.0.0",
+  "description": "a lightweight package for generating wallet addresses in different networks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaliliprf/crypto-wallet.git"
+  },
+  "keywords": [
+    "wallet",
+    "crypto",
+    "address",
+    "crypto-address",
+    "crypto-wallet",
+    "bitcoin",
+    "bitcoin-address",
+    "ethereum",
+    "ethereum-address",
+    "tron",
+    "tron-address"
+  ],
+  "author": "khaliliprf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaliliprf/crypto-wallet/issues"
+  },
+  "homepage": "https://github.com/khaliliprf/crypto-wallet#readme",
+  "dependencies": {
+    "@types/node": "^17.0.14",
+    "bech32": "^2.0.0",
+    "bip-schnorr": "^0.6.4",
+    "bitcoin-address-validation": "^2.2.1",
+    "coinkey": "^3.0.0",
+    "ecpair": "^2.0.1",
+    "ecurve": "^1.0.6",
+    "keccak256": "^1.0.6",
+    "secp256k1": "^4.0.3",
+    "typescript": "^4.5.5",
+    "wif": "^2.0.6"
+  }
+}
