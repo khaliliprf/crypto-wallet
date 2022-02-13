@@ -1,5 +1,5 @@
-import keccak256 from "keccak256";
 import secp256K1 from "secp256k1";
+import keccak256 from "keccak256";
 
 export default new (class Ethereum {
   /**

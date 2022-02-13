@@ -3,10 +3,8 @@ import tron from "./src/tron";
 import ethereum from "./src/ethereum";
 
 // export default new (class CryptoWallet {})();
-const cryptoWallet = {
+export default {
   bitcoin,
   ethereum,
   tron,
 };
-
-export default cryptoWallet;

@@ -8,10 +8,10 @@ import wif from "wif";
 // import bech32 from "bech32";
 
 import bs58 from "./base";
-import ecurve from "ecurve";
+import ecurve, { getCurveByName } from "ecurve";
 import { ECPairFactory, ECPairAPI, TinySecp256k1Interface } from "ecpair";
 
-const secp256k1 = ecurve.getCurveByName("secp256k1"),
+const secp256k1 = getCurveByName("secp256k1"),
   tinysecp: TinySecp256k1Interface = require("tiny-secp256k1"),
   ECPair: ECPairAPI = ECPairFactory(tinysecp);
 
