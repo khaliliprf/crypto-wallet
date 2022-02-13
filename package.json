@@ -1,5 +1,5 @@
 {
-  "name": "crypto-wallet",
+  "name": "address-generator",
   "version": "1.0.0",
   "description": "a lightweight package for generating wallet addresses in different networks",
   "main": "dist/index.js",

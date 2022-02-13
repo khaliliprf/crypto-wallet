@@ -1,9 +1,9 @@
-### crypto-wallet
+### address-generator
 
 multi-currency wallet generator :
 
 ```typescript
-import wallet from "crypto-wallet";
+import wallet from "address-generator";
 // generate legacy address
 wallet.bitcoin.getP2pkhAddress(pubKey, testnet);
 // generate native segwit address (bech32)
