@@ -1,6 +1,6 @@
 {
   "name": "address-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a lightweight package for generating wallet addresses in different networks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
